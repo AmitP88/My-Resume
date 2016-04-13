@@ -93,7 +93,7 @@ var projects = {
 		},
 		{
 			"title": "Google Maps Project",
-			"date": "10/15-12/15",
+			"date": "01/16-Present",
 			"description": "My 5th project for the Udacity FEND program. In this project I'm developing a web app that displays 5 Awesome Chinese Restaurants in San Francisco, CA. In this project, the goal is to create a webapp using Google Maps API to create a map displaying five locations of interest (I have chosen to use five highly reviewed chinese restaurants in San Francisco, CA), along with a listview (using knockout.js), a search filter, and the use of a third party API. In my project, I will be using Yelp's API to display reviews/ratings of the restaurants that will display both in the listview and in the location marker infowindows on the map. This is still a work in progress.",
 			"images": ["images/Map.jpg"]
 		}
@@ -219,6 +219,6 @@ function inName(name) {
 
 var name =$("#name").text();
 
-$('#main').append(internationalizeButton);
+//$('#main').append(internationalizeButton);
 
 $("#mapDiv").append(googleMap);
